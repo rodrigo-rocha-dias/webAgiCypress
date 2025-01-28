@@ -1,0 +1,33 @@
+{
+  "name": "webagicypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run",
+    "test_cypress": "cypress run --spec \"**/*.feature\"",
+    "test_cypress:regressivo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@regressivo\"",
+    "postcypress:run": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "cypress": "^14.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  }
+}
