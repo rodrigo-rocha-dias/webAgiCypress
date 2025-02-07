@@ -1,0 +1,56 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "BlogAgi - Serviços",
+    "line": 1,
+    "id": "blogagi---serviços",
+    "tags": [],
+    "uri": "servicos.feature",
+    "elements": [
+      {
+        "id": "blogagi---serviços;acessar-menu-serviços",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Acessar menu Serviços",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@blogAgi",
+            "line": 3
+          },
+          {
+            "name": "@servicos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que esteja no site blogAgi",
+            "result": {
+              "status": "passed",
+              "duration": 577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "clicar no menu \"Serviços\"",
+            "result": {
+              "status": "failed",
+              "duration": 491000000,
+              "error_message": "ReferenceError: The following error originated from your application code, not from Cypress.\n\n  > astra is not defined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at h (https://blog.agibank.com.br/_static/??-eJytk9FugzAMRX9oaVRoC3uY9i2BGOY2xFFsirqvn2FDqrS26qS9IIh8j32vw5RMS1EgipUPGICtY8lOnwzC9sh2wIgdgrddXgr9Rk82R36ZnpeyYHu6GEYPjcs3ACmMPUa2LTWB2hNbjywzYj0wLuLgBOlp5VlHpcxWMGrnCRPkPzedtd9So1YEXcDPu5jFvXoUTQJjawM2lmJDLnuM/RrL0kNgSMEJmJThjDDZwd2NhBO0Mzhluoo2ECXTjBj83XnGIHNkYJz3FNl0lE0/akkDub9CrQ0WzyaROtCYdeQHe3qWrTT5B4wW9cCBnIdb1+9xVBz08t1QjWkGrntbJrh+N4eqPriiKndVUTSlfr7u6321fbj9lfLrD0hjxu7yM8X78Latyros6nJffgGzclNK:1:12345)\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJytk9FugzAMRX9oaVRoC3uY9i2BGOY2xFFsirqvn2FDqrS26qS9IIh8j32vw5RMS1EgipUPGICtY8lOnwzC9sh2wIgdgrddXgr9Rk82R36ZnpeyYHu6GEYPjcs3ACmMPUa2LTWB2hNbjywzYj0wLuLgBOlp5VlHpcxWMGrnCRPkPzedtd9So1YEXcDPu5jFvXoUTQJjawM2lmJDLnuM/RrL0kNgSMEJmJThjDDZwd2NhBO0Mzhluoo2ECXTjBj83XnGIHNkYJz3FNl0lE0/akkDub9CrQ0WzyaROtCYdeQHe3qWrTT5B4wW9cCBnIdb1+9xVBz08t1QjWkGrntbJrh+N4eqPriiKndVUTSlfr7u6321fbj9lfLrD0hjxu7yM8X78Latyros6nJffgGzclNK:1:13114)\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJytk9FugzAMRX9oaVRoC3uY9i2BGOY2xFFsirqvn2FDqrS26qS9IIh8j32vw5RMS1EgipUPGICtY8lOnwzC9sh2wIgdgrddXgr9Rk82R36ZnpeyYHu6GEYPjcs3ACmMPUa2LTWB2hNbjywzYj0wLuLgBOlp5VlHpcxWMGrnCRPkPzedtd9So1YEXcDPu5jFvXoUTQJjawM2lmJDLnuM/RrL0kNgSMEJmJThjDDZwd2NhBO0Mzhluoo2ECXTjBj83XnGIHNkYJz3FNl0lE0/akkDub9CrQ0WzyaROtCYdeQHe3qWrTT5B4wW9cCBnIdb1+9xVBz08t1QjWkGrntbJrh+N4eqPriiKndVUTSlfr7u6321fbj9lfLrD0hjxu7yM8X78Latyros6nJffgGzclNK:1:22358)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:162647:53)\n    at $Cypress.action (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:145229:13)\n    at next (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:155014:10)\n    at https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:155058:5\n    at timeslice (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:145569:27)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

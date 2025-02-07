@@ -1,11 +1,8 @@
 /// <reference types="Cypress" />
-import HomeElements from '../elements/homeElements';
+import HomeElements from '../elements/home.elements';
 const homeElements = new HomeElements();
 
 class HomePage {
-    acessarSite() {
-        cy.visit("https://blog.agibank.com.br/");
-    }
 
     buscarConteudo(texto) {
         // cy.get(homeElements.botaoLupa()).click();
@@ -20,14 +17,6 @@ class HomePage {
             .should('be.visible')
             .and('contain.text', 'Nota Salvador');
     }
-
-    validarMensagemTela(mensagemTela) {
-        // cy.get(homeElements.mensagemPagina())
-        cy.get('.page-content > p')
-            .should('be.visible')
-            .and('contain.text', mensagemTela);
-    }
-
 
 }
 

@@ -1,0 +1,117 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "BlogAgi - Home",
+    "line": 1,
+    "id": "blogagi---home",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "blogagi---home;buscar-conteúdo-existente",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Buscar conteúdo existente",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@blogAgi",
+            "line": 3
+          },
+          {
+            "name": "@home",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que esteja no site blogAgi",
+            "result": {
+              "status": "passed",
+              "duration": 1266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "buscar por \"Nota salvador\" na lupa no canto superior direito da tela",
+            "result": {
+              "status": "failed",
+              "duration": 657000000,
+              "error_message": "ReferenceError: The following error originated from your application code, not from Cypress.\n\n  > astra is not defined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at h (https://blog.agibank.com.br/_static/??-eJytk9FugzAMRX9oaVRoC3uY9i2BGOY2xFFsirqvn2FDqrS26qS9IIh8j32vw5RMS1EgipUPGICtY8lOnwzC9sh2wIgdgrddXgr9Rk82R36ZnpeyYHu6GEYPjcs3ACmMPUa2LTWB2hNbjywzYj0wLuLgBOlp5VlHpcxWMGrnCRPkPzedtd9So1YEXcDPu5jFvXoUTQJjawM2lmJDLnuM/RrL0kNgSMEJmJThjDDZwd2NhBO0Mzhluoo2ECXTjBj83XnGIHNkYJz3FNl0lE0/akkDub9CrQ0WzyaROtCYdeQHe3qWrTT5B4wW9cCBnIdb1+9xVBz08t1QjWkGrntbJrh+N4eqPriiKndVUTSlfr7u6321fbj9lfLrD0hjxu7yM8X78Latyros6nJffgGzclNK:1:12345)\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJytk9FugzAMRX9oaVRoC3uY9i2BGOY2xFFsirqvn2FDqrS26qS9IIh8j32vw5RMS1EgipUPGICtY8lOnwzC9sh2wIgdgrddXgr9Rk82R36ZnpeyYHu6GEYPjcs3ACmMPUa2LTWB2hNbjywzYj0wLuLgBOlp5VlHpcxWMGrnCRPkPzedtd9So1YEXcDPu5jFvXoUTQJjawM2lmJDLnuM/RrL0kNgSMEJmJThjDDZwd2NhBO0Mzhluoo2ECXTjBj83XnGIHNkYJz3FNl0lE0/akkDub9CrQ0WzyaROtCYdeQHe3qWrTT5B4wW9cCBnIdb1+9xVBz08t1QjWkGrntbJrh+N4eqPriiKndVUTSlfr7u6321fbj9lfLrD0hjxu7yM8X78Latyros6nJffgGzclNK:1:13114)\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJytk9FugzAMRX9oaVRoC3uY9i2BGOY2xFFsirqvn2FDqrS26qS9IIh8j32vw5RMS1EgipUPGICtY8lOnwzC9sh2wIgdgrddXgr9Rk82R36ZnpeyYHu6GEYPjcs3ACmMPUa2LTWB2hNbjywzYj0wLuLgBOlp5VlHpcxWMGrnCRPkPzedtd9So1YEXcDPu5jFvXoUTQJjawM2lmJDLnuM/RrL0kNgSMEJmJThjDDZwd2NhBO0Mzhluoo2ECXTjBj83XnGIHNkYJz3FNl0lE0/akkDub9CrQ0WzyaROtCYdeQHe3qWrTT5B4wW9cCBnIdb1+9xVBz08t1QjWkGrntbJrh+N4eqPriiKndVUTSlfr7u6321fbj9lfLrD0hjxu7yM8X78Latyros6nJffgGzclNK:1:22358)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:162647:53)\n    at $Cypress.action (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:145229:13)\n    at next (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:155014:10)\n    at https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:155058:5\n    at timeslice (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:145569:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado artigo com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "blogagi---home;buscar-conteúdo-inexistente",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Buscar conteúdo inexistente",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 9
+          },
+          {
+            "name": "@blogAgi",
+            "line": 9
+          },
+          {
+            "name": "@home",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que esteja no site blogAgi",
+            "result": {
+              "status": "passed",
+              "duration": 1862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "buscar por \"Teste123\" na lupa no canto superior direito da tela",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 15000ms: `cy.type()` failed because this element is not visible:\n\n`<input type=\"search\" id=\"search-field\" class=\"search-field\" placeholder=\"Search...\" value=\"\" name=\"s\" tabindex=\"-1\">`\n\nThis element `<input#search-field.search-field>` is not visible because its parent `<label>` has CSS property: `visibility: hidden`\n\nFix this problem, or use `{force: true}` to disable error checking.\n    at runVisibilityCheck (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:144726:58)\n    at Object.isStrictlyVisible (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:144740:10)\n    at runAllChecks (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:112296:26)\n    at retryActionability (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:112364:16)\n    at tryCatcher (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4285:29)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise.attempt.Promise.try (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4275:9)\n    at whenStable (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:143535:68)\n    at <unknown> (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:143476:14)\n    at tryCatcher (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at HomePage.buscarConteudo (cypress/support/page/homePage.js:14:32)\n    at Context.eval (cypress/support/steps/homeSteps.js:10:13)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:118338:20)\n    at tryCatcher (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:118349:66)\n    at Context.then (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:118600:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "sera retornado mensagem no centro da tela \"Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

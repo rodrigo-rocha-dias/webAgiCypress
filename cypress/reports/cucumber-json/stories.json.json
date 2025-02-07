@@ -1,0 +1,127 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "BlogAgi - Stories",
+    "line": 1,
+    "id": "blogagi---stories",
+    "tags": [],
+    "uri": "stories.feature",
+    "elements": [
+      {
+        "id": "blogagi---stories;acessar-menu-stories",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Acessar menu Stories",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@blogAgi",
+            "line": 3
+          },
+          {
+            "name": "@servicos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que esteja no site blogAgi",
+            "result": {
+              "status": "passed",
+              "duration": 546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "clicar no menu \"Stories\"",
+            "result": {
+              "status": "passed",
+              "duration": 786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera carregada a pagina de stories",
+            "result": {
+              "status": "passed",
+              "duration": 2091000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "blogagi---stories;clicar-primeiro-item-da-lista-de-stories",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Clicar primeiro item da lista de stories",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 9
+          },
+          {
+            "name": "@blogAgi",
+            "line": 9
+          },
+          {
+            "name": "@servicos",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que esteja no site blogAgi",
+            "result": {
+              "status": "passed",
+              "duration": 414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "clicar no menu \"Stories\"",
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicar no primeiro item da lista carregada",
+            "result": {
+              "status": "failed",
+              "error_message": "ReferenceError: The following error originated from your application code, not from Cypress.\n\n  > infiniteScroll is not defined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJydklFuwyAMhi80ipqsTfYw7SiVA07n1gGESaPu9COZ0Cotrba9IGzsz/ZvpqCMdwld0oHHIznRJ0wBzFkfyBndjcRWk+vJUUIlJnrmYl83A7nNSZ6mb0p6xwFFg6QI+RRMmSg6B1JPaHUfl0D7j1RJZM5XJWSxg7gCKBMY37E3Z9GWJM2I4lDgaIBE/teZl9yqj6ITuVx5ooDxz0Xn3K9UNatGwPRxF7NMn2dMWYl5AUyd9q7zEC25Y5FlqZFwCAx5KyHihXDSA9yVRAKaGRyiv5GWvQ9qWfHdflZ+g4HoR0Eub6o4HqxkBZOI0aojMGO8PrJWsGNgD7aoBdZ6d3tX+6bdQ9XUz01VdXU2X3btrtk+1LxQfvy7MEbqSxdvw+u2qdu6autd/QlzgTiU:1:417)\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJydklFuwyAMhi80ipqsTfYw7SiVA07n1gGESaPu9COZ0Cotrba9IGzsz/ZvpqCMdwld0oHHIznRJ0wBzFkfyBndjcRWk+vJUUIlJnrmYl83A7nNSZ6mb0p6xwFFg6QI+RRMmSg6B1JPaHUfl0D7j1RJZM5XJWSxg7gCKBMY37E3Z9GWJM2I4lDgaIBE/teZl9yqj6ITuVx5ooDxz0Xn3K9UNatGwPRxF7NMn2dMWYl5AUyd9q7zEC25Y5FlqZFwCAx5KyHihXDSA9yVRAKaGRyiv5GWvQ9qWfHdflZ+g4HoR0Eub6o4HqxkBZOI0aojMGO8PrJWsGNgD7aoBdZ6d3tX+6bdQ9XUz01VdXU2X3btrtk+1LxQfvy7MEbqSxdvw+u2qdu6autd/QlzgTiU:1:12343)\n    at <unknown> (https://blog.agibank.com.br/_static/??-eJydklFuwyAMhi80ipqsTfYw7SiVA07n1gGESaPu9COZ0Cotrba9IGzsz/ZvpqCMdwld0oHHIznRJ0wBzFkfyBndjcRWk+vJUUIlJnrmYl83A7nNSZ6mb0p6xwFFg6QI+RRMmSg6B1JPaHUfl0D7j1RJZM5XJWSxg7gCKBMY37E3Z9GWJM2I4lDgaIBE/teZl9yqj6ITuVx5ooDxz0Xn3K9UNatGwPRxF7NMn2dMWYl5AUyd9q7zEC25Y5FlqZFwCAx5KyHihXDSA9yVRAKaGRyiv5GWvQ9qWfHdflZ+g4HoR0Eub6o4HqxkBZOI0aojMGO8PrJWsGNgD7aoBdZ6d3tX+6bdQ9XUz01VdXU2X3btrtk+1LxQfvy7MEbqSxdvw+u2qdu6autd/QlzgTiU:1:12347)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:162647:53)\n    at $Cypress.action (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:145229:13)\n    at next (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:155014:10)\n    at https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:155058:5\n    at timeslice (https://blog.agibank.com.br/__cypress/runner/cypress_runner.js:145569:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "sera carregado stories com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
